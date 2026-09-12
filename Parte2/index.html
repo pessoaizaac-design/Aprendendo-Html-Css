@@ -1,0 +1,30 @@
+<!--
+    id = identificador ( só uma tag pode possuir o identificador) (#)
+    class = identificadores que diferentes do id servem para  mais de uma tag (.)
+    style = o Css dentro do Html
+
+    id tem mais especifidade que a class
+
+    <b> - bold (texto em negrito)
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+    <style>
+        h1 { background: red;}
+        #cabecalho-dois{background: purple;}
+        .fundo-vermelho{background: red;}
+        p{background: blue;}
+
+    </style>
+</head>
+<body>
+    <h1 id="cabecalho-um" class="fundo-vermelho">Vai vir aqui</h1>
+    <h1 id="cabecalho-dois" class="fundo-vermelho">Vai vir aqui</h1>
+    <p>Um texto <b>qualquer</b></p>
+</body>
+</html>
